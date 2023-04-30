@@ -1,6 +1,5 @@
-<?php global $conn;
-require "../includes/header.php"; ?>
-<?php require "../config/config.php"; ?>
+<?php require "../includes/header.php"; ?>
+<?php require "../config/config.env.php"; ?>
 <?php
 
     if (isset($_POST['submit'])) {
@@ -14,7 +13,7 @@ require "../includes/header.php"; ?>
             echo "<script>alert('un ou plusieurs champs sont vides')</script>";
         } else {
 
-            if ($_POST['password'] === $_POST['confirmpassword']) {
+            if ($_POST['password'] == $_POST['confirmpassword']) {
                 $fullName = $_POST['fullname'];
                 $email = $_POST['email'];
                 $username = $_POST['username'];
@@ -33,7 +32,7 @@ require "../includes/header.php"; ?>
                     ":image" => $image,
                 ]);
 
-                header("Location: ".APPURL."/login");
+//                header("Location: ".APPURL."/login");
 
             } else {
                 echo "<script>alert('Les mots de passes ne sont pas identiques')</script>";
@@ -57,18 +56,18 @@ require "../includes/header.php"; ?>
 
                     <div class="card card-login mb-5">
                         <div class="card-body">
-                            <form class="form-horizontal" action="../index.php">
+                            <form class="form-horizontal" method="post" action="<?= APPURL ?>/auth/register.php">
                                 <div class="form-group row mt-3">
                                     <div class="col-md-12">
                                         <label>
-                                            <input class="form-control" type="text" required="" placeholder="Full Name" name="fullname">
+                                            <input class="form-control" name="fullname" type="text" required="" placeholder="Full Name">
                                         </label>
                                     </div>
                                 </div>
                                 <div class="form-group row mt-3">
                                     <div class="col-md-12">
                                         <label>
-                                            <input class="form-control" type="email" required="" placeholder="Email" name="email">
+                                            <input class="form-control" name="email" type="email" required="" placeholder="Email">
                                         </label>
                                     </div>
                                 </div>
@@ -76,35 +75,35 @@ require "../includes/header.php"; ?>
                                 <div class="form-group row mt-3">
                                     <div class="col-md-12">
                                         <label>
-                                            <input class="form-control" type="text" required="" placeholder="Username" name="username">
+                                            <input class="form-control" name="username" type="text" required="" placeholder="Username">
                                         </label>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-md-12">
                                         <label>
-                                            <input class="form-control" type="password" required="" placeholder="Password" name="password">
+                                            <input class="form-control" name="password" type="password" required="" placeholder="Password">
                                         </label>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-md-12">
                                         <label>
-                                            <input class="form-control" type="password" required="" placeholder="Confirm Password" name="confirmpassword">
+                                            <input class="form-control" name="confirmpassword" type="password" required="" placeholder="Confirm Password">
                                         </label>
                                     </div>
                                 </div>
-                                <div class="form-group row">
-                                    <div class="col-md-12">
-                                        <div class="checkbox">
-                                            <input id="checkbox0" type="checkbox" name="terms">
-                                            <label for="checkbox0" class="mb-0">I Agree with <a href="../terms.html" class="text-light">Terms & Conditions</a> </label>
-                                        </div>
-                                    </div>
-                                </div>
+<!--                                <div class="form-group row">-->
+<!--                                    <div class="col-md-12">-->
+<!--                                        <div class="checkbox">-->
+<!--                                            <input id="checkbox0" type="checkbox" name="terms">-->
+<!--                                            <label for="checkbox0" class="mb-0">I Agree with <a href="../terms.html" class="text-light">Terms & Conditions</a> </label>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
                                 <div class="form-group row text-center mt-4">
                                     <div class="col-md-12">
-                                        <button type="submit" class="btn btn-primary btn-block text-uppercase" name="submit">Register</button>
+                                        <button name="submit" type="submit" class="btn btn-primary btn-block text-uppercase">Register</button>
                                     </div>
                                 </div>
                             </form>
