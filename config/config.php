@@ -9,7 +9,7 @@
         define("HOST", 'localhost');
         define("DBNAME", 'freshcery');
         define("USER", 'root');
-        define("PASS", 'Hamzamanliving93@');
+        define("PASS", ''); // 
 
         $conn = new PDO("mysql:dbname=".DBNAME.";host=".HOST.";", USER, PASS);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
