@@ -1,4 +1,3 @@
-<?php const APPURL = "http://localhost/foodOrdering"; ?>
 <footer>
     <div class="container">
         <div class="row">
