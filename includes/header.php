@@ -1,4 +1,8 @@
-<?php const APPURL = "http://localhost/foodOrdering"; ?>
+<?php
+
+    session_start();
+    const APPURL = "http://localhost/foodOrdering";
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -25,7 +29,7 @@
     <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-transparent" id="page-navigation">
         <div class="container">
             <!-- Navbar Brand -->
-            <a href="../index.php" class="navbar-brand">
+            <a href="<?= APPURL; ?>/index.php" class="navbar-brand">
                 <img src="<?php echo APPURL; ?>/assets/img/logo/logo.png" alt="">
             </a>
 
@@ -38,21 +42,30 @@
                 <!-- Navbar Menu -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="shop.html" class="nav-link">Shop</a>
+                        <a href="<?= APPURL; ?>/shop.php" class="nav-link">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a href="register.html" class="nav-link">Register</a>
+                        <a href="<?= APPURL; ?>/faq.php" class="nav-link">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a href="login.html" class="nav-link">Login</a>
+                        <a href="<?= APPURL; ?>/contact.php" class="nav-link">Contact</a>
                     </li>
+                    <?php if(!isset($_SESSION['username'])) :?>
+                        <li class="nav-item">
+                            <a href="<?php echo APPURL; ?>/auth/register.php" class="nav-link">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?php echo APPURL; ?>/auth/login.php" class="nav-link">Login</a>
+                        </li>
+                    <?php else: ?>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <div class="avatar-header"><img src="<?php echo APPURL; ?>/assets/img/logo/avatar.jpg"></div> John Doe
+                            <div class="avatar-header"><img src="<?php echo APPURL; ?>/assets/img/logo/avatar.jpg" alt=""></div> <?= $_SESSION['username'] ;?>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="transaction.html">Transactions History</a>
-                            <a class="dropdown-item" href="setting.html">Settings</a>
+                            <a class="dropdown-item" href="<?= APPURL; ?>/transaction.php">Transactions History</a>
+                            <a class="dropdown-item" href="<?= APPURL; ?>/setting.php">Settings</a>
+                            <a class="dropdown-item" href="<?= APPURL; ?>/auth/logout.php">Logout</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -67,7 +80,7 @@
                                 <li>
                                     <div class="shopping-cart-list">
                                         <div class="media">
-                                            <img class="d-flex mr-3" src="<?php echo APPURL; ?>/assets/img/logo/avatar.jpg" width="60">
+                                            <img class="d-flex mr-3" src="<?php echo APPURL; ?>/assets/img/logo/avatar.jpg" width="60" alt="">
                                             <div class="media-body">
                                                 <h5><a href="javascript:void(0)">Carrot</a></h5>
                                                 <p class="price">
@@ -78,7 +91,7 @@
                                             </div>
                                         </div>
                                         <div class="media">
-                                            <img class="d-flex mr-3" src="<?php echo APPURL; ?>/assets/img/logo/avatar.jpg" width="60">
+                                            <img class="d-flex mr-3" src="<?php echo APPURL; ?>/assets/img/logo/avatar.jpg" width="60" alt="">
                                             <div class="media-body">
                                                 <h5><a href="javascript:void(0)">Carrot</a></h5>
                                                 <p class="price">
@@ -89,7 +102,7 @@
                                             </div>
                                         </div>
                                         <div class="media">
-                                            <img class="d-flex mr-3" src="<?php echo APPURL; ?>/assets/img/logo/avatar.jpg" width="60">
+                                            <img class="d-flex mr-3" src="<?php echo APPURL; ?>/assets/img/logo/avatar.jpg" width="60" alt="">
                                             <div class="media-body">
                                                 <h5><a href="javascript:void(0)">Carrot</a></h5>
                                                 <p class="price">
@@ -100,7 +113,7 @@
                                             </div>
                                         </div>
                                         <div class="media">
-                                            <img class="d-flex mr-3" src="<?php echo APPURL; ?>/assets/img/logo/avatar.jpg" width="60">
+                                            <img class="d-flex mr-3" src="<?php echo APPURL; ?>/assets/img/logo/avatar.jpg" width="60" alt="">
                                             <div class="media-body">
                                                 <h5><a href="javascript:void(0)">Carrot</a></h5>
                                                 <p class="price">
@@ -119,9 +132,10 @@
                                     </div>
                                 </li>
                                 <li class="d-flex justify-content-between pl-3 pr-3 pt-3">
-                                    <a href="cart.html" class="btn btn-default">View Cart</a>
-                                    <a href="checkout.html" class="btn btn-primary">Checkout</a>
+                                    <a href="<?= APPURL; ?>/cart.php" class="btn btn-default">View Cart</a>
+                                    <a href="<?= APPURL; ?>/checkout.php" class="btn btn-primary">Checkout</a>
                                 </li>
+                                <?php endif; ?>
                             </ul>
                         </div>
                     </li>
