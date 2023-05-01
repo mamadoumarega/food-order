@@ -37,7 +37,7 @@
                     <!-- Navbar Menu -->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="shop.html" class="nav-link">Shop</a>
+                            <a href="shop.php" class="nav-link">Shop</a>
                         </li>
                         <li class="nav-item">
                             <a href="auth/register.php" class="nav-link">Register</a>
@@ -50,8 +50,8 @@
                                 <div class="avatar-header"><img src="assets/img/logo/avatar.jpg"></div> John Doe
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="transaction.html">Transactions History</a>
-                                <a class="dropdown-item" href="setting.html">Settings</a>
+                                <a class="dropdown-item" href="transaction.php">Transactions History</a>
+                                <a class="dropdown-item" href="setting.php">Settings</a>
                             </div>
                           </li>
                         <li class="nav-item dropdown">
@@ -118,7 +118,7 @@
                                         </div>
                                     </li>
                                     <li class="d-flex justify-content-between pl-3 pr-3 pt-3">
-                                        <a href="cart.html" class="btn btn-default">View Cart</a>
+                                        <a href="cart.php" class="btn btn-default">View Cart</a>
                                         <a href="checkout.html" class="btn btn-primary">Checkout</a>
                                     </li>
                                 </ul>
@@ -135,70 +135,138 @@
             <div class="jumbotron jumbotron-bg text-center rounded-0" style="background-image: url('assets/img/bg-header.jpg');">
                 <div class="container">
                     <h1 class="pt-5">
-                        Contact
+                        Checkout
                     </h1>
                     <p class="lead">
-                        Don't Hesitate to Contact Us.
+                        Save time and leave the groceries to us.
                     </p>
                 </div>
             </div>
         </div>
 
-        <section class="pb-0">
-            <div class="contact1 mb-5">
-                <div class="container">
-                    <div class="row mt-3">
-                        <div class="col-lg-7">
-                            <div class="contact-wrapper">
-                                <h3 class="title font-weight-normal mt-0 text-left">Send Us a Message</h3>
-                                <form data-aos="fade-left" data-aos-duration="1200">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" placeholder="Full Name">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input class="form-control" type="email" placeholder="Email">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="form-group">
-                                                <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 text-right">
-                                            <button type="submit" class="btn btn-lg btn-primary mb-5">Send</button>
-                                        </div>
+        <section id="checkout">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                        <h5 class="mb-3">BILLING DETAILS</h5>
+                        <!-- Bill Detail of the Page -->
+                        <form action="#" class="bill-detail">
+                            <fieldset>
+                                <div class="form-group row">
+                                    <div class="col">
+                                        <input class="form-control" placeholder="Name" type="text">
                                     </div>
-                                </form>
+                                    <div class="col">
+                                        <input class="form-control" placeholder="Last Name" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Company Name" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Address"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Town / City" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="State / Country" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Postcode / Zip" type="text">
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col">
+                                        <input class="form-control" placeholder="Email Address" type="email">
+                                    </div>
+                                    <div class="col">
+                                        <input class="form-control" placeholder="Phone Number" type="tel">
+                                    </div>
+                                </div>
+                              
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Order Notes"></textarea>
+                                </div>
+                            </fieldset>
+                        </form>
+                        <!-- Bill Detail of the Page end -->
+                    </div>
+                    <div class="col-xs-12 col-sm-5">
+                        <div class="holder">
+                            <h5 class="mb-3">YOUR ORDER</h5>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Products</th>
+                                            <th class="text-right">Subtotal</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Ikan Segar x1
+                                            </td>
+                                            <td class="text-right">
+                                                Rp 30.000
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Sirloin x1
+                                            </td>
+                                            <td class="text-right">
+                                                Rp 120.000
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Mix Vegetables x1
+                                            </td>
+                                            <td class="text-right">
+                                                Rp 30.000
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tfooter>
+                                        <tr>
+                                            <td>
+                                                <strong>Cart Subtotal</strong>
+                                            </td>
+                                            <td class="text-right">
+                                                Rp 180.000
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Shipping</strong>
+                                            </td>
+                                            <td class="text-right">
+                                                Rp 20.000
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>ORDER TOTAL</strong>
+                                            </td>
+                                            <td class="text-right">
+                                                <strong>Rp 200.000</strong>
+                                            </td>
+                                        </tr>
+                                    </tfooter>
+                                </table>
                             </div>
-                        </div>
-                        <div class="col-lg-5">
-                            <div class="detail-wrapper p-5 bg-primary">
-                                <h3 class="font-weight-normal mb-3 text-light">
-                                    Freshcery Headquarter
-                                </h3>
 
-                                <p class="text-light">
-                                    Jl. Petani No. 159, Cibabat<br>
-                                    Cimahi Utara<br>
-                                    Kota Cimahi<br>
-                                    Jawa Barat 40513
-                                </p>
-
-                                <p class="text-light">
-                                    <i class="fas fa-phone"></i> 0898986362<br>
-                                    <i class="fas fa-envelope"></i> hello@freshcery.com
-                                </p>
-                            </div>
+                         
                         </div>
+                        <p class="text-right mt-3">
+                            <input checked="" type="checkbox"> I’ve read &amp; accept the <a href="#">terms &amp; conditions</a>
+                        </p>
+                        <a href="#" class="btn btn-primary float-right">PROCEED TO CHECKOUT <i class="fa fa-check"></i></a>
+                        <div class="clearfix">
                     </div>
                 </div>
             </div>
-
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.97915747782!2d107.58270291427688!3d-6.893096195019089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e67b57d420db%3A0x4dd071fcb9157e80!2sBTC+Fashion+Mall!5e0!3m2!1sen!2sid!4v1522964715022" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
         </section>
     </div>
     <footer>
@@ -215,19 +283,19 @@
                             <a href="about.php">About</a>
                         </li>
                         <li>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="contact.php">Contact Us</a>
                         </li>
                         <li>
-                            <a href="faq.html">FAQ</a>
+                            <a href="faq.php">FAQ</a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">How it Works</a>
                         </li>
                         <li>
-                            <a href="terms.html">Terms</a>
+                            <a href="terms.php">Terms</a>
                         </li>
                         <li>
-                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="privacy.php">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>

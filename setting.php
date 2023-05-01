@@ -37,7 +37,7 @@
                     <!-- Navbar Menu -->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="shop.html" class="nav-link">Shop</a>
+                            <a href="shop.php" class="nav-link">Shop</a>
                         </li>
                         <li class="nav-item">
                             <a href="auth/register.php" class="nav-link">Register</a>
@@ -50,7 +50,7 @@
                                 <div class="avatar-header"><img src="assets/img/logo/avatar.jpg"></div> John Doe
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="transaction.html">Transactions History</a>
+                                <a class="dropdown-item" href="transaction.php">Transactions History</a>
                                 <a class="dropdown-item" href="setting.html">Settings</a>
                             </div>
                           </li>
@@ -118,8 +118,8 @@
                                         </div>
                                     </li>
                                     <li class="d-flex justify-content-between pl-3 pr-3 pt-3">
-                                        <a href="cart.html" class="btn btn-default">View Cart</a>
-                                        <a href="checkout.html" class="btn btn-primary">Checkout</a>
+                                        <a href="cart.php" class="btn btn-default">View Cart</a>
+                                        <a href="checkout.php" class="btn btn-primary">Checkout</a>
                                     </li>
                                 </ul>
                             </div>
@@ -135,117 +135,60 @@
             <div class="jumbotron jumbotron-bg text-center rounded-0" style="background-image: url('assets/img/bg-header.jpg');">
                 <div class="container">
                     <h1 class="pt-5">
-                        Your Cart
+                        Settings
                     </h1>
                     <p class="lead">
-                        Save time and leave the groceries to us.
+                        Update Your Account Info
                     </p>
                 </div>
             </div>
         </div>
 
-        <section id="cart">
+        <section id="checkout">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th width="10%"></th>
-                                        <th>Products</th>
-                                        <th>Price</th>
-                                        <th width="15%">Quantity</th>
-                                        <th width="15%">Update</th>
-                                        <th>Subtotal</th>
-                                        <th>Delete</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <img src="assets/img/fish.jpg" width="60">
-                                        </td>
-                                        <td>
-                                            Ikan Segar<br>
-                                            <small>1000g</small>
-                                        </td>
-                                        <td>
-                                            Rp 30.000
-                                        </td>
-                                        <td>
-                                            <input class="form-control" type="number" min="1" data-bts-button-down-class="btn btn-primary" data-bts-button-up-class="btn btn-primary" value="1" name="vertical-spin">
-                                        </td>
-                                        <td>
-                                            <a href="#" class="btn btn-primary">UPDATE</a>
-                                        </td>
-                                        <td>
-                                            Rp 30.000
-                                        </td>
-                                        <td>
-                                            <a href="javasript:void" class="text-danger"><i class="fa fa-times"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <img src="assets/img/meats.jpg" width="60">
-                                        </td>
-                                        <td>
-                                            Sirloin<br>
-                                            <small>1000g</small>
-                                        </td>
-                                        <td>
-                                            Rp 120.000
-                                        </td>
-                                        <td>
-                                            <input class="form-control" type="number" min="1" data-bts-button-down-class="btn btn-primary" data-bts-button-up-class="btn btn-primary" value="1" name="vertical-spin">
-                                        </td>
-                                        <td>
-                                            <a href="#" class="btn btn-primary">UPDATE</a>
-                                        </td>
-                                        <td>
-                                            Rp 120.000
-                                        </td>
-                                        <td>
-                                            <a href="javasript:void" class="text-danger"><i class="fa fa-times"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <img src="assets/img/vegetables.jpg" width="60">
-                                        </td>
-                                        <td>
-                                            Mix Vegetables<br>
-                                            <small>1000g</small>
-                                        </td>
-                                        <td>
-                                            Rp 30.000
-                                        </td>
-                                        <td>
-                                            <input class="form-control" type="number" min="1" data-bts-button-down-class="btn btn-primary" data-bts-button-up-class="btn btn-primary" value="1" name="vertical-spin">
-                                        </td>
-                                        <td>
-                                            <a href="#" class="btn btn-primary">UPDATE</a>
-                                        </td>
-                                        <td>
-                                            Rp 30.000
-                                        </td>
-                                        <td>
-                                            <a href="javasript:void" class="text-danger"><i class="fa fa-times"></i></a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <a href="shop.html" class="btn btn-default">Continue Shopping</a>
-                    </div>
-                    <div class="col text-right">
-                   
-                        <div class="clearfix"></div>
-                        <h6 class="mt-3">Total: Rp 180.000</h6>
-                        <a href="checkout.html" class="btn btn-lg btn-primary">Checkout <i class="fa fa-long-arrow-right"></i></a>
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-sm-6">
+                        <h5 class="mb-3">ACCOUNT DETAILS</h5>
+                        <!-- Bill Detail of the Page -->
+                        <form action="#" class="bill-detail">
+                            <fieldset>
+                                <div class="form-group row">
+                                    <div class="col">
+                                        <input class="form-control" placeholder="Full Name" type="text">
+                                    </div>
+                                   
+                                </div>
+                               
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Address"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Town / City" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="State / Country" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Postcode / Zip" type="text">
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col">
+                                        <input class="form-control" placeholder="Email Address" type="email">
+                                    </div>
+                                    <div class="col">
+                                        <input class="form-control" placeholder="Phone Number" type="tel">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Password" type="password">
+                                </div>
+                                <div class="form-group text-right">
+                                    <a href="#" class="btn btn-primary">UPDATE</a>
+                                    <div class="clearfix">
+                                </div>
+                            </fieldset>
+                        </form>
+                        <!-- Bill Detail of the Page end -->
                     </div>
                 </div>
             </div>
@@ -265,19 +208,19 @@
                             <a href="about.php">About</a>
                         </li>
                         <li>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="contact.php">Contact Us</a>
                         </li>
                         <li>
-                            <a href="faq.html">FAQ</a>
+                            <a href="faq.php">FAQ</a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">How it Works</a>
                         </li>
                         <li>
-                            <a href="terms.html">Terms</a>
+                            <a href="terms.php">Terms</a>
                         </li>
                         <li>
-                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="privacy.php">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
@@ -333,16 +276,5 @@
     <script type="text/javascript" src="assets/packages/thumbelina/thumbelina.js"></script>
     <script type="text/javascript" src="assets/packages/bootstrap-touchspin/bootstrap-touchspin.js"></script>
     <script type="text/javascript" src="assets/js/theme.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $(".form-control").keyup(function(){
-                var value = $(this).val();
-                value = value.replace(/^(0*)/,"");
-                $(this).val(1);
-            });
-
-        })
-    </script>
 </body>
 </html>

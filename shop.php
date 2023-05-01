@@ -50,8 +50,8 @@
                                 <div class="avatar-header"><img src="assets/img/logo/avatar.jpg"></div> John Doe
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="transaction.html">Transactions History</a>
-                                <a class="dropdown-item" href="setting.html">Settings</a>
+                                <a class="dropdown-item" href="transaction.php">Transactions History</a>
+                                <a class="dropdown-item" href="setting.php">Settings</a>
                             </div>
                           </li>
                         <li class="nav-item dropdown">
@@ -118,8 +118,8 @@
                                         </div>
                                     </li>
                                     <li class="d-flex justify-content-between pl-3 pr-3 pt-3">
-                                        <a href="cart.html" class="btn btn-default">View Cart</a>
-                                        <a href="checkout.html" class="btn btn-primary">Checkout</a>
+                                        <a href="cart.php" class="btn btn-default">View Cart</a>
+                                        <a href="checkout.php" class="btn btn-primary">Checkout</a>
                                     </li>
                                 </ul>
                             </div>
@@ -245,13 +245,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -278,13 +278,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -311,13 +311,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -344,13 +344,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -377,13 +377,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -422,13 +422,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -455,13 +455,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -488,13 +488,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -521,13 +521,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -554,13 +554,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -599,13 +599,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -632,13 +632,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -665,13 +665,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -698,13 +698,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -731,13 +731,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -776,13 +776,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -809,13 +809,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -842,13 +842,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -875,13 +875,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -908,13 +908,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -953,13 +953,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -986,13 +986,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -1019,13 +1019,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -1052,13 +1052,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -1085,13 +1085,13 @@
                                     </div>
                                     <div class="card-body">
                                         <h4 class="card-title">
-                                            <a href="detail-product.html">Product Title</a>
+                                            <a href="detail-product.php">Product Title</a>
                                         </h4>
                                         <div class="card-price">
                                             <span class="discount">Rp. 300.000</span>
                                             <span class="reguler">Rp. 200.000</span>
                                         </div>
-                                        <a href="detail-product.html" class="btn btn-block btn-primary">
+                                        <a href="detail-product.php" class="btn btn-block btn-primary">
                                             Add to Cart
                                         </a>
 
@@ -1118,19 +1118,19 @@
                             <a href="about.php">About</a>
                         </li>
                         <li>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="contact.php">Contact Us</a>
                         </li>
                         <li>
-                            <a href="faq.html">FAQ</a>
+                            <a href="faq.php">FAQ</a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">How it Works</a>
                         </li>
                         <li>
-                            <a href="terms.html">Terms</a>
+                            <a href="terms.php">Terms</a>
                         </li>
                         <li>
-                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="privacy.php">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>

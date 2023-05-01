@@ -37,7 +37,7 @@
                     <!-- Navbar Menu -->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="shop.html" class="nav-link">Shop</a>
+                            <a href="shop.php" class="nav-link">Shop</a>
                         </li>
                         <li class="nav-item">
                             <a href="auth/register.php" class="nav-link">Register</a>
@@ -50,8 +50,8 @@
                                 <div class="avatar-header"><img src="assets/img/logo/avatar.jpg"></div> John Doe
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="transaction.html">Transactions History</a>
-                                <a class="dropdown-item" href="setting.html">Settings</a>
+                                <a class="dropdown-item" href="transaction.php">Transactions History</a>
+                                <a class="dropdown-item" href="setting.php">Settings</a>
                             </div>
                           </li>
                         <li class="nav-item dropdown">
@@ -118,8 +118,8 @@
                                         </div>
                                     </li>
                                     <li class="d-flex justify-content-between pl-3 pr-3 pt-3">
-                                        <a href="cart.html" class="btn btn-default">View Cart</a>
-                                        <a href="checkout.html" class="btn btn-primary">Checkout</a>
+                                        <a href="cart.php" class="btn btn-default">View Cart</a>
+                                        <a href="checkout.php" class="btn btn-primary">Checkout</a>
                                     </li>
                                 </ul>
                             </div>
@@ -382,19 +382,19 @@
                             <a href="about.php">About</a>
                         </li>
                         <li>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="contact.php">Contact Us</a>
                         </li>
                         <li>
-                            <a href="faq.html">FAQ</a>
+                            <a href="faq.php">FAQ</a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">How it Works</a>
                         </li>
                         <li>
-                            <a href="terms.html">Terms</a>
+                            <a href="terms.php">Terms</a>
                         </li>
                         <li>
-                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="privacy.php">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
