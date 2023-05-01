@@ -2,6 +2,10 @@
 <?php require "../config/config.env.php"; ?>
 <?php
 
+    if(isset($_SESSION['username'])) {
+        echo "<script>window.location.href = '".APPURL."';</script>";
+    }
+
     if (isset($_POST['submit'])) {
 
         if (
@@ -32,7 +36,8 @@
                     ":image" => $image,
                 ]);
 
-//                header("Location: ".APPURL."/login");
+//                header("Location: login.php");
+                echo "<script>window.location.href = 'login.php';</script>";
 
             } else {
                 echo "<script>alert('Les mots de passes ne sont pas identiques')</script>";
